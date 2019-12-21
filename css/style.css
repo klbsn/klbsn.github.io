@@ -1,0 +1,20 @@
+*{padding: 0; margin: 0;}
+body{box-sizing: border-box;width: 100vw;}
+.header{width: 50vw;border: 1px solid #000;display: flex; margin: 2% auto;align-items: center;}
+#logo{color: #000;font-family: 'Courier New', Courier, monospace;font-size: 1em;}
+.nav{margin-left: auto;}
+.nav a{text-decoration: none;color: #000;text-transform: uppercase;font-size: 0.8em;font-family: monospace;margin-right:8px}
+.main{width: 50vw;margin: 5% auto;}
+.caption {font-family: monospace;font-size: 0.7em;text-transform: uppercase;}
+.bio{font-family: monospace; width: 200px;height: 90px;padding:2px; animation: bobstyle 1.5s 0.5s ease-out infinite; display: grid;
+position: relative;bottom: 160px;left: 230px;}
+@keyframes bobstyle{
+    0%{transform: scale(1.0);}
+    50%{transform: scale(1.1);}
+    100%{transform: scale(1.0);}
+}
+.work{font-family: monospace;}
+.anim{width: 200px;height: 20px;border: 1px solid #000;text-align: left;line-height: 20px;padding-left: 3px;
+transform: rotate(10deg);}
+.footer{font-family: monospace;width: 50vw;text-align: center; display: flex;align-items: center;justify-content: center;
+margin: 16% auto;border: 1px solid #000;padding: 2px;}
