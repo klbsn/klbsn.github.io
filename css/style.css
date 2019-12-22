@@ -18,3 +18,5 @@ position: relative;bottom: 160px;left: 230px;}
 transform: rotate(10deg);}
 .footer{font-family: monospace;width: 50vw;text-align: center; display: flex;align-items: center;justify-content: center;
 margin: 16% auto;border: 1px solid #000;padding: 2px;}
+.git a:visited{color: #000;}
+.git a{color: #000;}
