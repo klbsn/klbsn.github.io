@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jan2</title>
+    <style>
+       *{padding: 0;margin: 0;}
+       body{width: 100vw;height: auto;font-family: monospace;}
+       .header{width: 36vw;height: 50px;border: 1px solid #000000; color: #fdfdfd;margin: 5% auto;text-align: center;
+       font-size: 0.6em;line-height: 50px;}
+       #logo{color: rgb(26, 26, 26);}
+       .main{margin: 5% auto;width: 36vw;}
+       .boxes{display: grid; grid-template-columns: repeat(4,1fr);grid-gap: 2%;margin-top: 5%;}
+       .box{width: 120px;height: 120px;text-align: center;line-height: 120px;}
+       .topbar{text-align: center;}
+       .box:hover{border: 1px solid #eee;}
+       .textBox{padding: 2px;text-align: justify;margin-top: 7%;animation: textUpdate 5s 1s ease-in infinite;}
+       .test{background:#000;width: 300px;height: 80px;} 
+       .footer{width: 36vw;height: 100px;margin: 6% auto;text-align: center;line-height: 100px;}   
+       @keyframes textUpdate{
+           0%{width: 33vw;}
+           50%{width: 34vw;}
+           9%{width: 35vw;}
+           100%{width: 36vw;}
+       }
+    
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 id="logo">keeping up with things</h1>
+    </header>
+    <main class="main">
+        <section class="topbar">
+            <p>This is a small work on grid</p>
+        </section>
+        <section class="boxes">
+            <section class="box">0</section>
+            <section class="box">1</section>
+            <section class="box">2</section>
+            <section class="box">3</section>
+            <section class="box">4</section>
+            <section class="box">5</section>
+            <section class="box">6</section>
+            <section class="box">7</section>
+        </section>
+
+        <section class="textBox">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Natus sed, aspernatur quis blanditiis, doloribus iure
+              molestiae perspiciatis aut dolores quisquam harum!
+               Mollitia eligendi dolorem, <span class="test">. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               </span>provident eos dignissimos
+                deleniti eius quasi minus omnis cupiditate. Consequatur,
+                 unde esse eveniet <span class="test">. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   </span>dolore explicabo, doloribus fugiat 
+                 odio eligendi impedit laborum et praesentium est sint blanditiis! 
+                 Quisquam possimus, adipisci itaque maxime nemo inventore corrupti
+                  dicta culpa id.<span class="test">. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   </span> Velit sint ea laudantium veritatis impedit odio 
+                  explicabo atque laboriosam sapiente aut ex, inventore quaerat eius unde,
+                   vero voluptatibus, in ipsam. <span class="test">. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   </span> Nesciunt nostrum aut incidunt 
+                   atque cupiditate modi, alias harum voluptatem sint nemo! Suscipit 
+                   error saepe quas! Harum magnam ab error magni consequuntur
+                    natus dolores, cumque quo, dolorem culpa amet reiciendis et 
+                    rerum ipsum, quasi sunt eaque! Tempora voluptatem similique
+                     cum, deserunt, dolor<span class="test">. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       </span> voluptatibus recusandae officia eius 
+                     nihil placeat vitae sapiente? Facere distinctio dolores sunt
+                      quia non. Molestias adipisci nesciunt recusandae quam sequi! 
+                      Quam nam, odio voluptates, <span class="test">. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       </span>error asperiores accusamus, ipsa assumenda harum molestias possimus et blanditiis accusantium amet beatae reprehenderit eveniet sequi mollitia quis commodi architecto dolorem quia. Ullam nihil vitae est quibusdam facilis omnis ex eligendi itaque quae dolor aut beatae dolorum explicabo fugiat libero maxime, earum accusamus, placeat, fuga accusantium rem eaque. Porro sequi beatae consequuntur ducimus hic ipsum dolorum voluptatum iste cum optio doloremque at impedit mollitia quidem, facere magnam, delectus provident est itaque quisquam, sapiente natus similique deleniti. Mollitia praesentium vero saepe et, consectetur eveniet illo ea unde accusantium accusamus ratione obcaecati consequatur alias aut debitis quos rerum optio veritatis? Tempora laudantium reprehenderit omnis mollitia vero labore obcaecati alias incidunt, tempore vitae asperiores, delectus saepe molestias dolores consequatur quia error ipsa? Doloremque placeat alias unde numquam veniam asperiores? Magnam excepturi ipsum nobis mollitia quaerat earum esse officia ex officiis dignissimos, 
+            nemo labore temporibus repellendus provident laboriosam fuga omnis, 
+            laudantium id odio voluptas, ullam modi.</section>
+    </main>
+    <footer class="footer">
+        &copy; klbsn.github.io
+    </footer>
+    
+</body>
+</html>
