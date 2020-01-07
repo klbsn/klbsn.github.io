@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jan7</title>
+    <style>
+        *{padding: 0;margin: 0;}
+        body{width: 100vw;height: auto;background: #000; animation: changeBg 4s 0.5s ease-in-out infinite;}
+        #logo{color: #fff;font-size: 0.5em; text-align: center;margin: 5% auto;letter-spacing: 40px;
+        border: 1px solid rgb(53, 53, 53);width: 50vw;padding: 1%;
+        animation: logoBg 5s 1s ease-out infinite;}
+        .main{width: 50vw; height: auto;color: green;margin: 2% auto;font-family: monospace;
+        letter-spacing: 2px;text-align: justify; animation: mainWidth 9s 1s ease-out infinite;}
+        .twat{width: 20px;height: 400px;background-color: rgb(0, 0, 0);color: rgb(255, 0, 0);}
+        .circle{width: 200px;height: 200px;border-radius: 50%;background-color: rgb(0, 0, 0);color: #fff;}
+        @keyframes logoBg{
+            0%{background-color: rgb(0, 0, 0);color: rgb(182, 182, 182);padding: 0.3%;
+                box-shadow: 20px 20px 20px rgba(255, 0, 0, 0.6)
+            }
+            50%{background-color: rgb(0, 0, 0);color: rgb(255, 255, 255);padding: 0.8%;text-shadow: 20px 20px 20px rgba(255, 0, 0, 0.6);
+                box-shadow: 20px 20px 20px rgba(0, 26, 255, 0.6)}
+            100%{background-color: rgb(43, 43, 43);color: rgb(204, 204, 204);padding: 1%;text-shadow: 20px 20px 20px rgba(255, 0, 0, 0.6);
+                box-shadow: 20px 20px 20px rgba(0, 255, 34, 0.6)}
+        }
+        @keyframes changeBg{
+            0%{background-color: rgb(1, 3, 34);color: #000;}
+            20%{background-image:linear-gradient(45deg, gray, #000) rgb(255, 0, 0);color: #000;}
+            40%{background-color: rgb(27, 39, 75);color: #000;}
+            40%{background-color: rgb(29, 2, 2);color: #000;}
+            40%{background-color: rgb(0, 0, 0);color: #000;}
+            40%{background-color: rgb(36, 36, 36);color: #000;}
+            
+        }
+        @keyframes mainWidth{
+            0%{width: 10vw;}
+            20%{width: 20vw;}
+            40%{width: 30vw;}
+            60%{width: 40vw;}
+            80%{width: 25vw;}
+            100%{width: 40vw;}
+        }
+    
+    </style>
+</head>
+<body>
+    <h1 id="logo">WHATEVER</h1>
+    <main class="main">
+        
+        <code>
+
+
+            using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class test : MonoBehaviour
+{
+
+private float one = 100;
+private float two = 105;
+private string[] playername = {"ray", "jon", "mario"};
+private int playerhealth = 50;
+public Vector3 position = Vector3.zero;
+public enum enemyState{zero, one, two, three, four};
+public enemyState ActiveState = enemyState.one;
+[SerializeField]private GameObject[] gameBodies;
+private float theYAxisValue;
+
+string[] newArray = new string[4];
+string[,] secondArray = new string[4,4];
+string[,,] threeDimensionArray = new string[4,4,4];
+float[,,,] newFloatArray = new float[5,5,5,6];
+
+
+    private void Start() {
+    returnSumOfValues();
+    gameBodies = new GameObject[4];
+    gameBodies[2] = Camera.main.gameObject;
+    gameBodies[2] = GameObject.Find("three");
+    gameBodies[3] = GameObject.Find("four");
+
+     foreach(string runThisLoopOnThreeDimensionArray in threeDimensionArray){
+        
+
+
+        
+
+
+     }
+
+
+
+
+
+
+    
+}
+<span class="twat"><code>
+    if(Input.GetKeyDown(KeyCode.Return)){
+        returnSumOfValues();
+    }
+    if(playerhealth > 300 || playername[0] == "tim"){
+        print("yo that is right");
+
+    }else{
+        print("nah fukar");
+    }
+
+   switch(ActiveState){
+       case  enemyState.one:{
+           print("its two");
+       } break;
+       case enemyState.two:{
+           print("this is two may be");
+       }break;
+  <span class="circle">:) :) :( :(   :)switch(ActiveState){
+    case  enemyState.one:{
+        print("its two");
+    } break;
+    case enemyState.two:{
+        print("this is two may be");
+    }break;
+
+    case enemyState.three:{
+        print("this is the third line of code here");
+    }break;
+
+    default:{
+        print("let this run otherwise fuckers");
+    }break; </span>
+       case enemyState.three:{
+           print("this is the third line of code here");
+       }break;
+
+       default:{
+           print("let this run otherwise fuckers");
+       }break;
+       if(Input.GetKeyDown(KeyCode.Return)){
+        returnSumOfValues();
+    }
+    if(playerhealth > 300 || playername[0] == "tim"){
+        print("yo that is right");
+
+    }else{
+        print("nah fukar");
+    }
+
+   switch(ActiveState){
+       case  enemyState.one:{
+           print("its two");
+       } break;
+       case enemyState.two:{
+           print("this is two may be");
+       }break;
+
+       case enemyState.three:{
+           print("this is the third line of code here");
+       }break;
+
+       default:{
+           print("let this run otherwise fuckers");
+       }break;
+
+       if(Input.GetKeyDown(KeyCode.Return)){
+        returnSumOfValues();
+    }
+    if(playerhealth > 300 || playername[0] == "tim"){
+        print("yo that is right");
+
+    }else{
+        print("nah fukar");
+    }
+
+   switch(ActiveState){
+       case  enemyState.one:{
+           print("its two");
+       } break;
+       case enemyState.two:{
+           print("this is two may be");
+       }break;
+
+       case enemyState.three:{
+           print("this is the third line of code here");
+       }break;
+
+       default:{
+           print("let this run otherwise fuckers");
+       }break;
+
+
+</code>
+</span>
+private void Update() {
+
+
+    foreach(GameObject objs in gameBodies){
+        Destroy(objs ,2f);
+        // is this shit valid???
+        // foreach loop reapts the code block that is being getting executed
+        // for each element of this array here this shit one gamebodies?
+        // the local var here represent the active element in the loop
+        // for the first iteration it will represent the first element
+        //during second iteration it will represent the second one and it goes on like this
+
+        foreach(GameObject localVar in gameBodies){
+            Destroy(localVar, 0.5f);
+            transform.Rotate(0, theYAxisValue, 0f);
+        }
+
+        foreach(GameObject newLocalVarThatHoldsCurrentElemtDuringCycle in gameBodies){
+            transform.Translate(0f,theYAxisValue,0);
+            Destroy(newLocalVarThatHoldsCurrentElemtDuringCycle, 1f);
+        }
+
+
+
+        foreach(GameObject localNewVar in gameBodies){
+            Destroy(localNewVar, 2f);
+        }
+    }
+
+0101010110101010101111010101010110101010101101010101
+0101010110101010101111010101010110101010101101010101
+0101010110101010101111010101010110101010101101010101
+
+
+
+
+
+    if(Input.GetKeyDown(KeyCode.Return)){
+        returnSumOfValues();
+    }
+    if(playerhealth > 300 || playername[0] == "tim"){
+        print("yo that is right");
+
+    }else{
+        print("nah fukar");
+    }
+
+   switch(ActiveState){
+       case  enemyState.one:{
+           print("its two");
+       } break;
+       case enemyState.two:{
+           print("this is two may be");
+       }break;
+
+       case enemyState.three:{
+           print("this is the third line of code here");
+       }break;
+
+       default:{
+           print("let this run otherwise fuckers");
+       }break;
+
+   }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+void returnSumOfValues(){
+    print(one + two  + " yes that is the sum of this shit");
+}
+}
+
+        </code>
+    </main>
+    
+</body>
+</html>
