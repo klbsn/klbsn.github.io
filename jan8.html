@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jan8</title>
+    <style>
+        *{padding: 0;margin: 0;}
+
+        #logo{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            font-size: 0.6em;
+            text-transform: uppercase;
+            margin: 2% auto;
+        }
+        .footer{text-align: center;border: 1px solid #000;padding: 2px;width: 10vw;margin: 1% auto;
+        border-radius: 4px;}
+
+    .dot{
+        margin: 10% auto;
+        font-family: monospace;
+        text-align: center;
+        line-height: auto;
+        overflow: hidden;
+        animation: dotMotion 6s 2s ease-in-out infinite;
+        
+
+        
+    }
+    @keyframes dotMotion{
+        0%{width: 20px; height: 20px;border-radius: 50%; background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);}
+        20%{width: 60px; height: 60px;border-radius: 50%; background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);}
+        30%{width: 100px; height: 100px;border-radius: 50%; background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);}
+        40%{width: 140px; height: 140px;border-radius: 50%; background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);}
+        50%{width: 180px; height: 180px;border-radius: 50%; background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);}
+        60%{width: 200px; height: 200px;border-radius: 50%; background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);}
+        70%{width: 240px; height: 240px;border-radius: 50%; background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);}
+        80%{width: 280px; height: 280px;border-radius: 50%; background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);}
+        85%{width: 320px; height: 320px;border-radius: 50%; background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);}
+        90%{width: 360px; height: 360px;border-radius: 50%; background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);}
+        95%{width: 400px; height: 400px;border-radius: 50%; background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);}
+        98%{width: 440px; height: 440px;border-radius: 50%; background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);}
+        100%{width: 100px; height: 100px;border-radius: 50%; background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);transform: rotate(360deg);}
+        150%{width: 50px; height: 50px;border-radius: 50%; background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);transform: rotate(360deg);}
+    }
+    </style>
+</head>
+<body>
+    <h1 id="logo"><img src="img/star.gif" alt=""> <br>whatever</h1>
+    <div class="dot">
+
+        <code>
+            @keyframes dotMotion{
+                0%{width: 20px; height: 20px;border-radius: 50%; background-color: #000;color: #fff;}
+                20%{width: 60px; height: 60px;border-radius: 50%; background-color: #000;color: #fff;}
+                30%{width: 100px; height: 100px;border-radius: 50%; background-color: #000;color: #fff;}
+                40%{width: 140px; height: 140px;border-radius: 50%; background-color: #000;color: #fff;}
+                50%{width: 180px; height: 180px;border-radius: 50%; background-color: #000;color: #fff;}
+                60%{width: 200px; height: 200px;border-radius: 50%; background-color: rgb(255, 0, 0);color: #fff;}
+                70%{width: 240px; height: 240px;border-radius: 50%; background-color: #000;color: #fff;}
+                80%{width: 280px; height: 280px;border-radius: 50%; background-color: #000;color: #fff;}
+                85%{width: 320px; height: 320px;border-radius: 50%; background-color: #000;color: #fff;}
+                90%{width: 360px; height: 360px;border-radius: 50%; background-color: #000;color: #fff;}
+                95%{width: 400px; height: 400px;border-radius: 50%; background-color: #000;color: #fff;}
+                98%{width: 440px; height: 440px;border-radius: 50%; background-color: #000;color: #fff;}
+                100%{width: 500px; height: 500px;border-radius: 50%; background-color: #000;color: #fff;}
+            }
+        </code>
+        <code>
+            using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class test : MonoBehaviour
+{
+
+private float one = 100;
+private float two = 105;
+private string[] playername = {"ray", "jon", "mario"};
+private int playerhealth = 50;
+public Vector3 position = Vector3.zero;
+public enum enemyState{zero, one, two, three, four,five, six, seven,eight,nine,ten};
+public enemyState ActiveState = enemyState.one;
+[SerializeField]private GameObject[] gameBodies;
+private float theYAxisValue;
+
+string[] newArray = new string[4];
+string[,] secondArray = new string[4,4];
+string[,,] threeDimensionArray = new string[4,4,4];
+float[,,,] newFloatArray = new float[5,5,5,6];
+//dummy array here;
+
+
+
+
+    private void Start() {
+    returnSumOfValues();
+    gameBodies = new GameObject[4];
+    gameBodies[2] = Camera.main.gameObject;
+    gameBodies[2] = GameObject.Find("three");
+    gameBodies[3] = GameObject.Find("four");
+
+     foreach(string runThisLoopOnThreeDimensionArray in threeDimensionArray){
+        
+
+
+
+
+
+     }
+
+
+
+
+
+
+    
+}
+
+private void Update() {
+
+
+ for(int varFirstToStartiterationInloop = 0; varFirstToStartiterationInloop >= lengthOfArray.lrngth; varFirstToStartiterationInloop++){
+
+ }
+
+ for(int i = 0; i >= arrayFirst.length - arrayindex[0]; i++){
+
+ }
+
+ 
+
+
+
+
+
+
+    foreach(GameObject objs in gameBodies){
+        Destroy(objs ,2f);
+        // is this shit valid???
+        // foreach loop reapts the code block that is being getting executed
+        // for each element of this array here this shit one gamebodies?
+        // the local var here represent the active element in the loop
+        // for the first iteration it will represent the first element
+        //during second iteration it will represent the second one and it goes on like this
+
+        foreach(GameObject localVar in gameBodies){
+            Destroy(localVar, 0.5f);
+            transform.Rotate(0, theYAxisValue, 0f);
+        }
+
+        foreach(GameObject newLocalVarThatHoldsCurrentElemtDuringCycle in gameBodies){
+            transform.Translate(0f,theYAxisValue,0);
+            Destroy(newLocalVarThatHoldsCurrentElemtDuringCycle, 1f);
+        }
+
+
+
+        foreach(GameObject localNewVar in gameBodies){
+            Destroy(localNewVar, 2f);
+        }
+    }
+
+
+
+
+
+
+
+    if(Input.GetKeyDown(KeyCode.Return)){
+        returnSumOfValues();
+    }
+    if(playerhealth > 300 || playername[0] == "tim"){
+        print("yo that is right");
+
+    }else{
+        print("nah fukar");
+    }
+
+   switch(ActiveState){
+       case  enemyState.one:{
+           print("its two");
+       } break;
+       case enemyState.two:{
+           print("this is two may be");
+       }break;
+
+       case enemyState.three:{
+           print("this is the third line of code here");
+       }break;
+
+       default:{
+           print("let this run otherwise fuckers");
+       }break;
+
+   }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+void returnSumOfValues(){
+    print(one + two  + " yes that is the sum of this shit");
+}
+}
+
+        </code>
+
+
+
+
+
+        
+    </div>
+   <footer class="footer">
+       how ya donin? <br> :)
+   </footer>
+    
+</body>
+</html>
