@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jan15</title>
+    <style>
+
+        *{padding: 0;margin: 0;}
+        body{box-sizing: border-box;width: 100vw;height: auto;}
+        
+        .main{width: 40vw;margin:  auto;display: flex;flex-wrap: wrap;justify-content: center;font-family: 'Courier New', Courier, monospace;
+        font-size: 0.7em;text-transform: uppercase;
+        animation:  mainFunction 5s 1s ease-out infinite;}
+        .header{width: 40vw;height: 40vh;margin: 5% auto;text-transform: uppercase;font-size: 0.5em;
+        color: #000;
+        font-family: 'Courier New', Courier, monospace;text-align: center;}
+        .header a{margin-left: 20px;color: #000;text-decoration: none;}
+        .box{width: 10vw;height: 10vw;border-radius: 50%;background-color: #000;
+        line-height: 10vw;display: flex;justify-content: center ;margin: 2% auto;
+        background-image: url(img/k.png);
+        animation:  updateFunction 5s .6s ease-in-out infinite;}
+        @keyframes mainFunction{
+            0%{font-size: .4em;}
+            50%{font-size: .6em;}
+            100%{font-size: .8em;}
+        }
+
+
+
+        @keyframes updateFunction{
+            0%{width: 3vw;height: 3vh;border-radius: 50%;}
+            10%{width: 4vw;height: 4vh;border-radius: 50%;}
+            20%{width: 5vw;height: 5vh;border-radius: 50%;}
+            30%{width: 6vw;height: 6vh;border-radius: 50%;}
+            40%{width: 7vw;height: 7vh;border-radius: 50%;}
+            60%{width: 8vw;height: 8vh;border-radius: 50%;}
+            70%{width: 9vw;height: 9vh;border-radius: 50%;}
+            80%{width: 7vw;height: 7vh;border-radius: 50%;}
+            90%{width: 8vw;height: 8vh;border-radius: 50%;}
+            100%{width: 1vw;height: 1vh;border-radius: 50%;}
+            1%{width: 2vw;height: 2vh;border-radius: 50%;}
+        }
+    
+    
+    
+    
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">work</a>
+        <a href="index.html">git-repos</a>
+        <a href="jan1.html">home</a>
+        <a href="jan2.html">more</a>
+    </header>
+    <main class="main">too busy to write css, i am busy writing C#
+
+    </main>
+    
+</body>
+</html>
