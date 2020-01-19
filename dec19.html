@@ -8,12 +8,16 @@
     <style>
 
         *{padding: 0;margin: 0;}
-        body{width: 100vw;height: auto;background: rgb(240, 204, 0);color: #000;}
-        .header{width: 40vw;margin: 2% auto;font-family: 'Courier New', Courier, monospace;text-transform: uppercase;
-        font-size: 2em;display: flex;justify-content: space-between;}
+        body{width: 100vw;height: auto;background: rgb(240, 204, 0);color: #000;
+        background-image: url("img/w.jpg");background-repeat: repeat;}
+        .header{margin: 2% auto;font-family: 'Courier New', Courier, monospace;text-transform: uppercase;
+        font-size: 2em;display: flex;justify-content: space-between;width: 50vw; height: 10vh; margin:  3% auto;background: olive;
+        padding: 4px;background-image: url("img/k.jpg");box-shadow: 4px 1px 12px 2px rgba(0,0,0,0.1);}
         .header a{text-decoration: none;}
         .header a:visited{color: #000;}
-        .main{width: 40vw;margin:  3% auto;}
+        .main{width: 50vw; height: 100vh; margin:  3% auto;background: olive;padding: 4px;
+        background-image: url("img/k.jpg");
+        box-shadow: 12px 4px 20px 2px rgba(0,0,0,0.5);}
     
     
     
@@ -27,36 +31,7 @@
         <a href="#">Contact</a>
     </header>
     <main class="main">
-       <code>using System.Collections;
-        using System.Collections.Generic;
-        using UnityEngine;
-        
-        public class moveSeaweed : MonoBehaviour
-        {
-            [SerializeField]private float weedSpeed = 1f;
-            [SerializeField]private float randomHeightOffset =1f;
-        
-        
-        
-            void Update()
-            {
-                if(randomHeightOffset == 0){
-                    transform.position = new Vector3(15, , transform.position.z);
-        
-                    
-                }
-        
-              float randomHeightAmount = UnityEngine.Random.Range(-randomHeightOffset, randomHeightOffset);
-              
-        
-              transform.position += Time.deltaTime * weedSpeed * Vector3.left;
-        
-              if(transform.position.x <= -10)
-              transform.position = new Vector3(15, randomHeightAmount, transform.position.z);
-                
-            }
-        }
-        </code>
+      <img src="img/potion.jpg" alt="potion" height="200px">
     </main>
     
 </body>
