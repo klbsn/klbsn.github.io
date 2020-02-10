@@ -1,0 +1,120 @@
+*{padding: 0;
+margin: 0;}
+
+body{width: 100vw;
+height: auto;
+
+
+font-family: 'Mali', cursive;
+
+
+}
+.header{
+    width: 80vw;
+    height: 90px;
+    border-bottom: 1px solid #eee;
+    margin: 1% auto;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+}
+#logo{
+    color: blue;
+}
+.nav{
+    margin-left: auto;
+    margin-right: 80px;
+}
+.nlinks{
+    text-decoration: none;
+    padding: 20px;   
+}
+.nlinks:hover{
+    color: salmon;
+}
+.user{
+color: blue;
+
+   
+}
+.main{
+    width: 80vw;
+    height: auto;
+    margin: 2% auto;
+}
+#intro{
+    margin-bottom: 3%;
+}
+.intropart{
+    width: 80vw;
+    height: 240px;
+    background-color: #fff;
+    padding: 1%;
+    box-shadow: 1px 0px 16px rgba(202, 202, 202, 0.2);
+    margin-bottom:2% ;
+    border-radius: 12px;
+    margin: 0 auto;
+    animation: changeBg 5s 1s ease-in-out infinite;
+}
+.click{
+    width: 140px;
+    height: 46px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(17, 184, 142);
+    color: #fff;
+    font-size: 1em;
+    margin-top: 4%;
+
+}
+@keyframes changeBg{
+    0%{background-color: rgb(174, 195, 253);}
+    50%{background-color: rgb(246, 253, 147);}
+    100%{background-color: rgb(218, 190, 255);}
+}
+
+.btn{
+    width: 140px;
+    height: 42px;
+    padding: 1%;
+    background-color: salmon;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9em;
+
+}
+.img1{
+    width: 300px;
+    text-align: center;
+    
+    border-radius: 8px;
+    padding: 1%;
+   
+   
+    
+}
+.shop{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.footer{
+    width: 100vw;
+    height: 90px;
+    background-color: rgb(252, 249, 212);
+    color: rgb(46, 41, 77);
+    text-align: center;
+    line-height: 90px;
+}
+/* .footer :nth-child(1),.footer :nth-child(2){
+    padding: 2%;
+} */
+
+.fab{
+    padding: 2%;
+}
