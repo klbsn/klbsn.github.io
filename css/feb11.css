@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: auto;
+    background-color: rgb(255, 36, 120);
+
+
+    font-family: 'Sriracha', cursive;
+
+
+}
+.header{
+    width: 100vw;
+    height: 90px;
+    background-color: rgb(5, 207, 5);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nlinks{
+    padding: 50px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.circle{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: rgb(5, 207, 5);
+    margin: -8% auto;
+    text-align: center;
+    line-height: 220px;
+    margin-bottom: 3%;
+}
+
+.cats{
+    margin: 6% auto;
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    width: 340px;
+    text-align: center;
+    
+}
+.box img{
+    border-radius: 12px;
+}
+.btn{
+    width: 140px;
+    height: 46px;
+    background-color: salmon;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    margin-top: 5%;
+    font-size: 1em;
+
+}
+.catname{
+    margin-bottom: 3%;
+    color: azure;
+}
+.someTxt{
+    width: 80vw;
+    margin: 2% auto;
+    color: rgb(129, 28, 78);
+    background-color: rgb(51, 55, 97);
+    padding: 3%;
+    border-radius: 12px;
+   
+}
+.txt{
+    color: azure;
+}
+.subtitle{
+    color: blueviolet;
+}
+.icn{
+    color: rgb(221, 221, 221);
+    opacity: 0.9;
+    padding: 20px;
+}
+
+.footer{
+    width: 100vw;
+    height: 120px;
+    background-color: rgb(47, 27, 70);
+    color: azure;
+    text-align: center;
+    line-height: 120px;
+    margin-top: 200px;
+}
