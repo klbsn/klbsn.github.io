@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: auto;
+     font-family: 'Kalam', cursive;
+    /* background-image: url(../img/t1.jpg); */
+
+}
+.header{
+    width: 80vw;
+    height: 90px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% auto;
+   
+    
+}
+.nlinks{
+    text-decoration: none;
+    padding: 40px;
+    font-size: 1.2em;
+}
+.main{
+    width: 80vw;
+    height: auto;
+    margin: 0 auto;
+}
+.banner{
+    margin-bottom: 3%;
+  
+}
+.btn1{
+    width: 200px;
+    height: 40px;
+    padding: 1%;
+    border-radius: 8px;
+    border:  none;
+    background-color: rgb(67, 207, 109);
+    color: #fff;
+    font-size: 1em;
+    margin-top: 2%;
+
+}
+
+
+
+.shop{
+margin-top: 5%;
+margin-bottom: 4%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+flex-direction: column;
+align-items: center;
+}
+
+.divide{
+    /* border-bottom: 1px dotted rgb(129, 129, 129); */
+    /* border-top: 1px dotted rgb(129, 129, 129); */
+    padding: 6px;
+    text-align: center;
+    margin-top: 4%;
+}
+.box{
+    display: flex;
+    margin-bottom: 5%;
+   
+   
+}
+.box img{
+    margin-right: 3%;
+    border-radius: 6px;
+    
+}
+.tag{
+    width: 360px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   
+}
+#select{
+    width: 200px;
+    height: 40px;
+    border: solid 1px rgb(145, 145, 145);
+    padding: 1%;
+    border-radius: 8px;
+
+}
+
+
+
+
+
+
+
+
+.buy{
+    width: 200px;
+    height: 40px;
+    padding: 1%;
+    border-radius: 8px;
+    border:  none;
+    background-color: salmon;
+    color: #fff;
+    font-size: 1em;
+}
+.r1{
+    width: 300px;
+    text-align: center;
+}
+.rimg1{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    text-align: center;
+}
+.rbtn{
+    width: 160px;
+    height: 36px;
+    padding: 1%;
+    border-radius: 8px;
+    border:  none;
+    background-color: rgb(67, 207, 109);
+    color: #fff;
+    font-size: 1em;
+    margin-top: 2%;
+    margin-top: 4%;
+}
+
+.recepies{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.footer{
+    width: 100vw;
+    height: 120px;
+    background-color: rgb(45, 38, 83);
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    margin-top: 12%;
+}
+.icon{
+    padding: 20px;
+    
+}
