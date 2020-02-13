@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: auto;
+
+
+    font-family: 'Roboto', sans-serif;
+
+}
+.header{
+    width: 80vw;
+    height: 100px;
+    margin: 1% auto;
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nlinks{
+    padding: 40px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.banner{
+    margin: 0 auto;
+}
+.main{
+    width: 80vw;
+    height: auto;
+    margin: 2% auto;
+
+}
+#divider{
+    font-size: 2em;
+    padding: 4%;
+    text-align: center;
+}
+.product{
+    width: 400px;
+    text-align: center;
+}
+.txt,.name{
+    margin-bottom: 5%;
+}
+.buy{
+    width: 160px;
+    height: 40px;
+    padding: 4px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(240, 59, 170);
+    color: white;
+    margin-top: 3%;
+    font-size: 1em;
+}
+.shop{
+    display: flex;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10%;
+    margin-top: 5%;
+    flex-wrap: wrap ;
+}
+
+.owner{
+
+    height: auto;
+    margin-top: 16%;
+    display: grid;
+    grid-template-columns: 1fr 2fr
+   
+   
+  /* display: flex; */
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.social i{
+    padding: 20px;
+}
+.follow{
+    width: 160px;
+    height: 40px;
+    padding: 4px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(56, 130, 180);
+    color: white;
+    margin-top: 3%;
+    font-size: 1em;
+}
+.footer{
+    width: 100vw;
+    height: 100px;
+    margin-top: 12%;
+    background-color: rgb(34, 25, 71);
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
