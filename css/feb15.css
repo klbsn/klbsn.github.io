@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+
+
+    font-family: 'Roboto Slab', serif;
+
+
+}
+.header{
+    width: 96vw;
+    height: 90px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+}
+#logo{
+    color: rgb(56, 112, 56);
+}
+.divider1{
+    text-align: left;
+    margin: 8%;
+  
+}
+.nlinks{
+    text-decoration: none;
+    padding: 60px;
+    color: rgb(68, 138, 68);
+}
+.social i{
+    padding-right: 18px;
+    color: rgb(73, 114, 82);
+}
+.nlink{
+    text-decoration: none;
+    padding-right: 20px;
+    color: blue;
+    font-size: 1.2em;
+
+}
+.main{
+    width: 96vw;
+    height: auto;
+    margin: 2% auto;
+
+}
+.partone{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 80px;
+    margin-top: 2%;
+    
+
+}
+.inputButtons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+.plantname{
+    margin-bottom: 4%;
+}
+
+
+
+
+
+.buyplant:hover{
+    background-color: rgb(96, 155, 96);
+    color: #fff;
+    border: none;
+}
+
+#divider{
+    font-size: 2em;
+    text-align: center;
+    margin: 4%;
+
+}
+.partwo{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    column-gap: 4%;
+    row-gap: 8%;
+    margin-bottom: 8%;
+    margin-top: 4%;
+}
+.tl1 h2 {
+    margin-bottom: 4%;
+}
+.tl1 p{
+    margin-bottom: 4%;
+}
+.socialinks i{
+    padding-right: 20px;
+
+}
+.socialinks{
+    margin-bottom: 4%;
+}
+
+.parthree{
+    margin-top: 6%;
+}
+
+.buyplant{
+    width: 120px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 2px;
+    border: 1px solid #000;
+    background: none;
+}
+.input{
+    width: 120px;
+    height: 28px;
+    /* padding: 4px; */
+    border-radius: 2px;
+    border: 1px solid #000;
+    background: none;
+}
+::placeholder{
+    font-size: 1.2em;
+}
+
+.parthree{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 24%;
+    margin-top: 6%;
+}
+.thirdRight{
+    width: 300px;
+}
+
+.footer{
+    width: 100vw;
+    height: 120px;
+    background: rgb(61, 114, 77);
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    margin-top: 10%;
+}
