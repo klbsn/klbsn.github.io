@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Pinyon+Script|Roboto|Vast+Shadow&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Parisienne&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -45,7 +45,11 @@ body{
 }
 .usa{
 
-    font-family: 'Pinyon Script', cursive;
+   
+
+    font-family: 'Parisienne', cursive;
+
+
     margin-bottom: 4%;
 
 }
