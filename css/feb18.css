@@ -140,3 +140,6 @@ body{
     font-size: 2em;
     color: #000;
 }
+.bottom i:hover{
+    color: rgb(255, 87, 87);
+}
