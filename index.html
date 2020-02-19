@@ -7,10 +7,56 @@
     <title>ktwo</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts/css/all.min.css">
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Sacramento&display=swap');
+     .main{
+         width: 98vw;
+         margin: 6% auto;
+     }
+        .art{
+            display: flex;
+            flex-wrap: wrap;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 2%;
+            margin-left: 2%;
+        }
+        #logo{
+
+
+   
+            font-family: 'Audiowide', cursive;
+
+
+
+
+        }
+
+        #divider{
+            margin-bottom: 2%;
+            text-align: center;
+
+
+    font-family: 'Sacramento', cursive;
+    font-size: 2em;
+
+
+        }
+
+        @media only screen and (max-width: 800px)  {
+
+            .art{
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+        }
+       
+        
+    </style>
 </head>
 <body>
     <header class="header">
-        <h1 id="logo">ktwo</h1>
+        <h1 id="logo">Ktwo</h1>
         <nav class="nav">
             <a href="#">Home</a>
             <a href="p4.html">About</a>
@@ -23,7 +69,20 @@
 
     </header>
     <main class="main">
-        <section class="profile">
+        <h2 id="divider">My Doodles</h2>
+
+        <div class="art">
+            <img src="img/art1.png" alt="doodles">
+            <img src="img/art2.png" alt="doodles">
+            <img src="img/art3.png" alt="doodles">
+            <img src="img/art4.png" alt="doodles">
+            <img src="img/art5.png" alt="doodles">
+            <img src="img/art6.png" alt="doodles">
+           
+            
+            
+        </div>
+        <!-- <section class="profile">
             <img src="img/Asset 2.png" alt="profile_pic">
             <p class="caption"><code>{}</style></code> hello nerds</p>
         </section>
@@ -31,7 +90,7 @@
             <h3 id="name">ktwo, a nerd</h3>
             <p class="breif">ktwo likes computers, he writes code, play games, make cool robotic stuff</p>
             
-        </section>
+        </section> -->
         <section class="resume">
             <img src="img/kresume.jpg" alt="my resume">
         </section>
@@ -41,6 +100,7 @@
             <div class="ils">ktwo create illustration</div>
 
         </div>
+        
     </main>
     <footer class="footer">
         <p class="call"> call me may be</p>
