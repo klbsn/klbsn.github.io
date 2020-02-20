@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower|Hi+Melody|Rye&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: auto;
+}
+.header{
+    width: 80vw;
+    height: 120px;
+    margin: 1% auto;
+    padding-bottom: 2%;
+    
+}
+#logo{
+    text-align: center;
+}
+.nlinks{
+    text-decoration: none;
+    padding: 40px;
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Rye', cursive;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.main{
+    width: 100%;
+    height: auto;
+    margin: 0% auto;
+}
+.banner{
+margin-top: 4%;
+/* margin-left: 4%; */
+width: 100vw;
+display: flex;
+justify-content: center;
+
+}
+
+.tattoo{
+    display: flex;
+    margin-bottom: 4%;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: 4%;
+}
+.name, .rate{
+    
+    font-family: 'Hi Melody', cursive;
+    font-size: 1.6em;
+    color: rgb(39, 43, 80);
+}
+.description{
+
+    
+    font-family: 'Gamja Flower', cursive;
+    font-size: 1.1em;
+}
+.click{
+    width: 160px;
+    height: 40px;
+    font-size: 1em;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    /* border: 1px solid #000; */
+    background-color: rgb(95, 163, 95);
+    color: #fff;
+
+}
+#divider{
+    text-align: center;
+    
+    font-family: 'Rye', cursive;
+    font-size: 2em;
+    margin-top: 2%;
+
+
+}
+.click:hover{
+    background: rgb(36, 82, 182);
+}
+.gallery{
+    
+    /* display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; */
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4%;
+    column-gap: 6%;
+    margin: 2% auto;
+    margin-left: 4%;
+    margin-top: 6%;
+    margin-bottom: 4%;
+}
+.gallery1{
+    margin-bottom: 16%;
+}
+.g2{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.g2 img{
+    height: 200px;
+}
+.d2{
+    height: 200px;
+    width: 200px;
+}
+
+.divider2{
+    margin-top: 6%;
+}
+.gallery2{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-left: 2%;
+    margin-bottom: 12%;
+
+}
+
+
+.subscrive{
+    width: 90vw;
+    margin: 0% auto;
+    margin-top: 20%;
+    margin-bottom: -11%;
+    height: 46px;
+    display: flex;
+    padding-left: 2%;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid rgb(190, 190, 190); */
+    background: rgb(231, 231, 231);
+}
+.subscrive >input{
+    border: none;
+    background:none;
+  
+    padding: 4px;
+    width: 40vw;
+}
+.subscrive > button{
+    background: green;
+    height: 46px;
+    border: none;
+    width: 80px;
+    color: #fff;
+    font-size: 1em;
+}
+::placeholder{
+    font-size: 1.8em;
+
+    font-family: 'Gamja Flower', cursive;
+
+}
+
+.footer{
+
+    font-family: 'Gamja Flower', cursive;
+    width: 100vw;
+    height: auto;
+    padding-top: 0%;
+    border-top: 1px solid #eee;
+    margin-top: 12%;
+
+}
+.footer a{
+
+    font-family: 'Gamja Flower', cursive;
+
+}
+.f1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.line1, .line2, .line3{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.f2{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #eee;
+    padding: 2%;
+    align-items: center;
+    background: rgb(60, 56, 94);
+    color: #fff;
+}
+
+.social >i{
+    padding: 20px;
+    color: #fff;
+}
+.top{
+    color: #fff;
+}
+
