@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Antic+Didone|Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Italiana|Roboto+Condensed&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: auto;
+}
+.header{
+    width: 94vw;
+    height: auto;
+    margin: 1% auto;
+    
+    font-family: 'Abel', sans-serif;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 2%;
+
+
+
+}
+.menuLeft{
+    display: flex;
+    align-items: center;
+    width: 20vw;
+    justify-content: space-around;
+}
+.menuRight{
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sub{
+    width: 90px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: rgb(39, 85, 170);
+    border: none;
+    color: #fff;
+    font-size: 0.8em;
+}
+.nlinks{
+    text-decoration: none;
+    color: #000;
+}
+#logo{
+    
+   
+    font-family: 'Italiana',serif ;
+
+    font-size: 4em;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.partOne{
+    display: grid;
+    grid-template-areas: "left middle right";
+    column-gap: 2%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main{
+    width: 94vw;
+    height: auto;
+    margin: 2% auto;
+    font-family: 'Abel', sans-serif;
+
+
+}
+.leftone{
+    grid-area: left;
+    /* width: 25vw; */
+    border-right: 1px solid #eee;
+    padding-right: 1%;
+}
+.leftone img{
+    margin-bottom: 4%;
+}
+.middleone{
+    grid-area: middle;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    
+    /* width: 40vw; */
+   
+    /* text-align: justify; */
+}
+.middleone p{
+    width: 500px;
+    text-align: justify;
+}
+.rightone{
+    grid-area: right;
+    /* width: 20vw; */
+    border-left: 1px solid #eee;
+    padding-left: 1%;
+}
+.rightnews{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6%;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 4%;
+}
+.lnews{
+    margin-bottom: 6%;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 4%;
+}
+
+.two{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #eee;
+    margin-top: 4%;
+    padding-top: 2%;
+}
+.two img{
+    margin-bottom: 4%;
+}
