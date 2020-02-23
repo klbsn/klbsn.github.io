@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Text|Gruppo|Sniglet&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: auto;
+}
+.main{
+    width: 90vw;
+    height: auto;
+   margin-top: 10%;
+   margin-left: auto;
+   margin-right: auto;
+   margin: 10% auto;
+
+  
+   font-family: 'Sniglet', sans-serif;
+
+
+}
+.box{
+    border: 1px solid #eee;
+    width: 300px;
+    margin-bottom: 4%;
+    /* padding: 1%; */
+}
+.gallery{
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+    column-gap: 1%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* margin-left: 4%; */
+
+ 
+   
+}
+@media only screen and (max-width: 800px){
+
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1%;
+        /* display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap; */
+        /* margin-left: 4%; */}
+
+
+
+
+}
+
+@media only screen and (max-width: 600px){
+
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1%;
+    }
+
+}
+
+@media only screen and (max-width: 400px){
+
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+    }
+}
