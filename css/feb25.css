@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css?family=Caveat|Gochi+Hand|Patrick+Hand&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: auto;
+}
+
+
+.header{
+    width: 80vw;
+    height: auto;
+    margin: 0% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+   
+    font-family: 'Caveat',sans-serif ;
+
+
+}
+.nlinks{
+    font-size: 1.6em;
+    color: #006039;
+    text-decoration: none;
+    padding: 30px;
+}
+.nlinks:hover{
+    color: #A37E2C;
+}
+#logo{
+    /* box-shadow: 3px 2px 2px rgba(0,0,0,0.4); */
+    background: none;
+    
+    
+   
+    font-family: 'Gochi Hand',sans-serif ;
+
+
+}
+
+.main{
+    width: 80vw;
+    height: auto;
+    margin: 2% auto;
+    font-family: 'Patrick Hand', sans-serif;
+}
+.title{
+    color: #006039;
+}
+.toparea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px dotted #006039;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+.right img{
+    width: 500px;
+}
+.left{
+    width: 35vw;
+    
+
+}
+.title{
+    margin-bottom: 6%;
+}
+.social{
+    margin-top: 6%;
+}
+.social i{
+    padding-right: 42px;
+
+
+}
+.read{
+    width: 120px;
+    height: 30px;
+    border-radius: 2px;
+    padding: 4px;
+    border: 1px solid rgb(187,187,187);
+    background: none;
+    margin-top: 4%;
+}
+.read:hover{
+    background: #A37E2C;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+
+}
+.share{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+
+
+.footer{
+    background: #006039;
+    width: 100vw;
+    height: 200px;
+    margin-top: 8%;
+    text-align: center;
+    line-height: 200px;
+}
+.socialinks i{
+    color: #A37E2C;
+    padding: 40px;
+}
+.more{
+    width: 160px;
+    height: 42px;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: #006039;
+    color: #fff;
+    border: none;
+    font-size: 1.4em;
+    font-family: 'Gochi Hand',sans-serif ;
+}
