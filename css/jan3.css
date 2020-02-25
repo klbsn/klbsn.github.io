@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css?family=Italiana&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+}
+#h1{
+    text-align: center;
+}
+.header{
+    width: 90vw;
+    height: 90px;
+    margin: 1% auto;
+    text-align: center;
+    
+
+    font-family: 'Italiana',serif ;
+
+
+    text-transform: uppercase;
+
+}
+.main{
+    width: 90vw;
+    height: auto;
+    margin: 2% auto;
+}
+.one{
+    display: flex;
+    justify-content: space-around;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+}
+.iconbar{
+    width: 40vw;
+    height: 40px;
+    background-color: gray;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+}
+.iconbar  i{
+    
+    color: #fff;
+    padding: 12px;
+    display: block;
+    transform: all 0.3s ease;
+}
+
+.iconbar i:hover{
+    background-color: #d3bf09;
+}
+
+
+
+.oneline1{
+    width: 300px;
+    padding: 1%;
+    text-align: center;
+
+}
+.oneline1 button{
+    width: 80px;
+    height: 28px;
+    background: none;
+    border: 1px solid #000;
+    padding: 4px;
+}
+.two{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    column-gap: 6%;
+    row-gap: 6%;
+    margin-top: 8%;
+}
