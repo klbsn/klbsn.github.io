@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Text|Gruppo|Sniglet&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 90vw;
+    height: 120px;
+    margin: 2% auto;
+    font-family: 'Sniglet', sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu1 li {
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+    
+
+}
+.menu1 li a{
+    text-decoration: none;
+    color: #000;
+}
+.nlinks{
+    text-decoration: none;
+   
+}
+.social i{
+    padding-left: 30px;
+}
+.submenu{
+    display: none;
+}
