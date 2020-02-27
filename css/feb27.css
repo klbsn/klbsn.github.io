@@ -43,3 +43,16 @@ body{
 .submenu{
     display: none;
 }
+.main{
+    width: 100vw;
+    height: auto;
+    margin: 2% auto;
+}
+.banner{
+    width: 100vw;
+}
+ .submenu:hover{
+    display: block;
+    background-color: red;
+
+}
