@@ -48,11 +48,39 @@ body{
     height: auto;
     margin: 2% auto;
 }
+
 .banner{
     width: 100vw;
 }
- .submenu:hover{
-    display: block;
-    background-color: red;
+ .nlinks{
+     padding-right: 30px;
+ }
+ .down{
+     font-size: 0.7em;
+ }
+ .down:hover .submenu{
+     display: block;
+ }
+ 
+ .hiddenmenu{
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     left: -28%;
+     top: 20%;
+     
+     /* display: none; */
+ }
+ .hlinks{
+     color: #fff;
+ }
+.hiddenmenu a:hover{
+
+    color: #000;
 
 }
+
+  .down:hover .hiddenmenu{
+      color: #000;
+  }
+

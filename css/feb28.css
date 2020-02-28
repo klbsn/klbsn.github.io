@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Lato&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+}
+
+.header{
+    width: 100vw;
+    height: 60px;
+    margin: 0% auto;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 3px 1px  rgba(0, 0, 0, 0.1);
+  
+   
+    align-items: center;
+}
+.header i{
+    padding-right: 16px;
+    opacity: 0.5;
+    font-size: 1.1em;
+}
+.header img{
+    margin-left: 16px;
+}
+#title{
+
+    font-family: 'Alfa Slab One',serif ;
+    color: rgb(27, 27, 63);
+
+}
+
+
+#title span{
+    color: rgb(21, 128, 199);
+    text-transform: capitalize;
+}
+.main{
+    width: 100vw;
+    height: auto;
+
+    font-family: 'Lato',sans-serif ;
+
+}
+
+.mainarea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details{
+ margin-right: 12%;
+ width: 30vw;
+ display: flex;
+ flex-direction: column;
+
+ 
+}
+
+.box{
+    width: 200px;
+    height: 42px;
+    background: rgb(255, 58, 58);
+    
+    padding: 6px;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.2em;
+    font-weight: bold;
+
+
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 6%;
+    column-gap: 2%;
+    margin-top: 12%;
+}
+.info{
+    margin-top: 12%;
+    font-size: 0.8em;
+    opacity: 0.6;
+    font-family: 'Lato',sans-serif ;
+}
+
+.link{
+    text-align: center;
+    color: #000;
+    opacity: 0.6;
+    margin-top: 16%;
+    font-size: 0.8em;
+    
+
+
+}
