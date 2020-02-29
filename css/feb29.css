@@ -1,0 +1,140 @@
+/* light blue 004d80
+Orange d34e23
+Dark blue 1d253c
+background dbdbde
+ */
+ @import url('https://fonts.googleapis.com/css?family=Noto+Sans+HK:900|Quicksand|Red+Hat+Text:700&display=swap');
+
+ *{
+     padding: 0;
+     margin: 0;
+ }
+ body{
+     width: 100vw;
+     height: auto;
+     background-image: url('../img/pete.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .header{
+     width: 96vw;
+     height: auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 2% auto;
+     color: #fff;
+
+    font-family: 'Quicksand',sans-serif ;
+
+ }
+ .rightmenu{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ .rightmenu i{
+     margin-left: 6px;
+     font-size: 0.7em;
+     
+ }
+
+ .box{
+     width: 500px;
+     height: 620px;
+     background:#dbdbde ;
+    margin-left: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2%;
+    font-family: 'Quicksand',sans-serif ;
+ }
+ #title{
+
+    font-family: 'Noto Sans HK', sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #1d253c;
+
+ }
+
+ .box h2{
+
+    font-family: 'Red Hat Text',sans-serif ;
+    text-transform: uppercase;
+    font-size: 1.4em;
+
+ }
+
+ .h2a, .h2c{
+     color: #d34e23;
+ }
+.select{
+    width: 460px;
+    height: 36px;
+    border: 3px solid #004d80 ;
+    padding-top: 4px;
+}
+
+.slider{
+    width: 280px;
+    height: 32px;
+   background-color: #d34e23;
+   
+}
+.reading{
+    width: 3px;
+    height: 14px;
+    background: #004d80;
+}
+.measure{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 16px;
+ 
+
+}
+.h2b{
+    color: #004d80;
+}
+.chip{
+    width: 216px;
+    height: 40px;
+    font-size: 1.2em;
+    background: #004d80;
+    border-radius: 1px;
+    border: none;
+    font-family: 'Red Hat Text',sans-serif ;
+    color: #dbdbde;
+}
+.donate{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 12%;
+    
+    
+}
+.btxt{
+    text-align: justify;
+    text-align: center;
+    font-size: 0.7em;
+    margin-top: 10%;
+}
+.amount{
+    text-align: right;
+    margin-right: 32px;
+    margin-top: 1%;
+}
+/* .box :nth-child(2), .box :nth-child(4), .box :nth-child(6){
+    margin-top: -3%;
+} */
+
+.flag{
+    align-self: flex-end;
+    margin-right: 8%;
+    margin-bottom: -3%;
+}
