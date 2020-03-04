@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    background: #ffffff;
+   
+}
+
+.header{
+    width: 100vw;
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    box-shadow: 2px 2px 8px rgba(80, 80, 80, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo{
+    color: rgb(231, 81, 81);
+    letter-spacing: 8px;
+
+}
+.nlinks{
+    padding: 40px;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 4px;
+}
+.nlinks:hover{
+    color: salmon;
+}
+.nav :nth-child(5){
+    background: red;
+    padding: 8px;
+    border-radius: 4px;
+    color: #fff;
+}
+.icons i{
+    padding-left: 30px;
+    font-size: 0.8em;
+}
+
+.main{
+    width: 96vw;
+    height: auto;
+    margin: 2% auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner{
+    width: 90vw;
+    height: 260px;
+    margin: 6% auto;
+    padding: 2%;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(80, 80, 80, 0.1);
+   background-image: linear-gradient(45deg, rgb(250, 71, 131), rgb(255, 145, 0));
+   
+}
+.sale{
+    color: #000;
+    text-shadow: 2px 2px 6px rgba(80, 80, 80, 0.1);
+    color: #fafafa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+
+}
+.shop{
+    width: 200px;
+    height: 42px;
+    padding: 4px;
+    border-radius: 4px;
+    background: #fafafa;
+    border: none;
+    color: #000;
+    font-size: 1.2em;
+   margin-top: 12%;
+   opacity: 0.9;
+}
+/* .sort{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.list i{
+    padding-right: 20px;
+}
+.divider{
+    text-align: center;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 6%;
+    row-gap: 8%;
+   margin-top: 6%;
+   margin-left: 4%;
+   margin-bottom: 8%;
+}
+
+.buy{
+    width: 124px;
+    height: 34px;
+    border-radius: 4px;
+    border: 1px solid #000;
+    background: #fff;
+    color: #000;
+    font-size: 0.8em;
+    box-shadow: 2px 2px 8px rgba(80, 80, 80, 0.1);
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgb(209, 209, 209);
+    padding: 4px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 2px 12px 6px rgba(20, 20, 20, 0.1);
+    height: 260px;
+
+}
+
+.shop2{
+    width: 200px;
+    height: 40px;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid #000;
+    background: none;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+   
+}
+.divider2{
+    display: flex;
+    justify-content: center;
+   
+    margin-top: 16%;
+
+}
+
+.footer{
+    width: 100vw;
+    height: auto;
+    color: #000000;
+   
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 12%;
+    background: rgb(255, 255, 255);
+}
+
+.f2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid rgb(179, 179, 179);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /* line-height: 200px; */
+}
+
+.social i{
+    padding-right: 20px;
+}
+.top{
+    width: 90px;
+    height: 34px;
+    padding: 4px;
+    border-radius: 4px;
+    border: none;
+    background: rgb(42, 96, 212);
+    font-size: 0.8em;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 8px rgba(80, 80, 80, 0.1);
+}
