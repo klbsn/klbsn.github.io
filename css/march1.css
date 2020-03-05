@@ -66,6 +66,12 @@ body{
 
 
 }
+.hire:hover{
+    background: rgb(106, 185, 106);
+    color: #fff;
+    border: none;
+    
+}
 .box img{
     box-shadow: 6px 8px 8px rgba(0,0,0,0.1);
 }
