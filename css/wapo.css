@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Source+Serif+Pro&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+
+}
+
+.header{
+    width: 100vw;
+    height: 80px;
+    background: #000;
+    color: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search{
+    border-radius: 2px;
+    border: 1px solid rgb(94, 94, 94);
+    /* padding: 8px; */
+    background: rgb(44, 44, 44);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}

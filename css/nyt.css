@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Source+Serif+Pro&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+}
+
+.header{
+    width: 92vw;
+    height: 200px;
+    margin: 1% auto;
+
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.hdr1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topleft{
+    display: flex;
+    align-items: center;
+}
+.topleft :nth-child(1){
+    padding-right: 30px;
+
+}
+.nlinks{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+.topcenter a{
+    font-size: 0.6em;
+    padding: 14px;
+}
+.topcenter{
+    margin-left: 12%;
+}
+
+.sub{
+    width: 100px;
+    height: 34px;
+    padding: 2px;
+    border-radius: 4px;
+    border: none;
+    background: rgb(39, 74, 102);
+    color: #fafafa;
+    font-size: 0.7em;
+}
+.signin{
+    width: 60px;
+    height: 34px;
+    padding: 2px;
+    border-radius: 4px;
+    border: none;
+    background: rgb(39, 74, 102);
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+.topright :nth-child(1){
+    margin-right: 2px;
+
+}
+
+
+.hdr2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 4px;
+}
+.hdr2 p{
+    font-size: 0.7em;
+    text-transform: uppercase;
+   
+}
+.hdr3{
+    /* display: grid;
+    grid-template-columns: repeat(19, 1fr); */
+    /* margin-left: 2%; */
+    padding-top: 12px;
+    border-bottom: 1px solid #000;
+    width: 92vw;
+    padding-bottom: 4px;
+   
+}
+.hdr3 a{
+    padding: 14px;
+    opacity: 0.8;
+   
+
+}
+
+.hdr3 a{
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+.line{
+    width: 92vw;
+    margin-top: 3px;
+    /* height: 1px; */
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    border-top: 1px solid #000;
+    
+}
+
+.main{
+    width: 92vw;
+    height: auto;
+    margin: 2% auto;
+}
+.toparea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -2%;
+
+}
+.box{
+    display: flex;
+    font-size: 0.8em;
+    width: 280px;
+}
+.details{
+    margin-left: 12px;
+}
+.temprature{
+    font-size: 0.7em;
+
+}
+
+.index p{
+    font-size: 0.8em;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 6px;
+}
+.index i{
+    color: red;
+    font-size: 0.8em;
+    margin-left: 6px;
+}
+
+.index span{
+    color: red;
+}
+
+.temprature{
+    display: flex;
+}
+
+.temprature i{
+    font-size: 2em;
+    opacity: 0.5;
+}
+
+.temps{
+    margin-left: 12px;
+}
+.negative{
+    position: relative;
+    bottom: 14px;
+    font-size: 0.6em;
+}
+
+.location{
+    position: relative;
+    top: 40px;
+    left: -60px;
+}
