@@ -261,6 +261,6 @@ body{
 } */
 .abt:hover {
     /* display: none; */
-    rotate: -5deg;
+    rotate: -2deg;
     transition: all 1s;
 }
