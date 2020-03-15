@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/fonts/css/all.min.css">
     <title>jan1</title>
 </head>
 <body>
@@ -15,10 +16,21 @@
         a:visited{color: rgb(19, 64, 187);}
 
         .main{width:80vw ; padding: 2%;height: auto;margin: 2% auto;}
-        #logo{font-size: 1.2em;margin: 2% auto;color: rgb(41, 41, 41);
+        #logo{font-size: 1.2em;
+        /* margin: 2% auto; */
+        color: rgb(41, 41, 41);
         text-transform: uppercase;
-        text-align: center;
+
+        /* text-align: center; */
         
+        }
+        .header{
+            width: 80vw;
+            height: 90px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
         }
         .boxtwo{width: 40vw;height: 40px; background-color: rgb(247, 247, 247);color: #000;text-align: center;line-height: 40px;
         margin-top: 2%;}
@@ -40,13 +52,49 @@
         .days{display: flex;flex-wrap: wrap;justify-content: space-between;}
         .days a{padding: 6px;}
         .days a:hover{color: #fff;}
-        
+        .nlinks{
+            text-decoration: none;
+            
+            font-size: 0.8em;
+            
+            color: #000;
+
+        }
+        .yt{
+            border: 1px solid rgb(248, 248, 248);
+            border-radius: 4px;
+            padding: 2px;
+            width: 140px;
+            height: 36px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #fff;
+            
+
+        }
+        .yt i{
+            color: red;
+        }
+        .yt a{
+            color: #000;
+        }
         </style>
       
 
     </header>
     <main class="main">
-        <h1 id="logo">My Github Repos </h1>
+        <header class="header">
+            <h1 id="logo">my git repos</h1>
+            <div class="yt">
+                <i class="fab fa-youtube"></i>
+
+                <a href="https://www.youtube.com/channel/UCaQP3qBwI0bID7vo5cdmeEQ/videos?disable_polymer=1" target="blanck" class="nlinks">YouTube Tutorials</a>
+
+            </div>
+            
+        </header>
+        
          <!-- <p>the year starts</p>  -->
         <!-- <p class="days">Days : 365</p>
         <p class="Months">Months : 12</p> -->
