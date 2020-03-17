@@ -1,0 +1,131 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+    background: #fafafa;
+
+
+}
+
+.header{
+    width: 100vw;
+    height: 66px;
+    background: #fff;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nlinks{
+    padding: 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+#logo:hover,.nlinks:hover{
+    color: rgb(45, 129, 240);
+}
+.social i{
+    padding-left: 30px;
+}
+.ticons:hover{
+    color: rgb(43, 123, 214);
+    
+}
+
+.main{
+    width: 92vw;
+    height: auto;
+    margin: 4% auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 6%;
+}
+.intro{
+    text-align: center;
+}
+.banner{
+    width: 92vw;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4,1fr);
+    column-gap: 4%;
+    row-gap: 4%;
+    margin-top: 4%;
+
+    margin-bottom: 8%;
+    padding-bottom: 8%;
+
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    margin-top: 4%;
+
+}
+.buy{
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    width: 140px;
+    height: 30px;
+    border-radius: 4px;
+    background: #fff;
+    
+}
+.buy:hover{
+    /* background-color: rgb(46, 154, 216);
+    color: #fff; */
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+.box img{
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+.footer{
+    margin-top: 16%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #eee;
+    padding-top: 8%;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.icons i{
+    padding-right: 30px;
+}
+.up:hover{
+    rotate: 360deg;
+    transition: all 0.5s;
+
+}
+.box img:hover{
+    rotate:  -180deg;
+    transition: all .4s;
+}
