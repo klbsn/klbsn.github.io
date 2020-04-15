@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+}
+
+.header{
+    width: 100vw;
+    font-family: 'Baloo 2', cursive;
+    height: 60px;
+    box-shadow: 1px 2px 6px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+   
+    align-items: center;
+
+}
+.nlinks{
+    text-decoration: none;
+}
+
+.nav a{
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 60px;
+
+}
+.nav{
+    margin-left: auto;
+}
+
+#logo{
+    margin-left: 20px;
+}
+.hire{
+    background: teal;
+    width: 120px;
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Baloo 2', cursive;
+    height: 38px;
+    border-radius: 6px;
+    border: none;
+    margin-right: 40px;
+
+}
+
+.main{
+  
+    height: auto;
+    margin: 2% auto;
+}
+
+.banner{
+    width: 96vw;
+    height: 360px;
+    margin: 0 auto;
+    background: teal;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner h2{
+    color: #fff;
+    font-family: 'Baloo 2', cursive;
+    font-size: 4em;
+
+}
+.banner h4  {
+    font-family: 'Baloo 2', cursive;
+    font-size: 2em;
+    color: #fff;
+}
+    
+.banner img{
+    width: 300px;
+    
+
+
+}
+
+.divider{
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    color: #000;
+    font-size: 2em;
+    margin-top: 2%;
+
+}
+
+.gallery{
+    width: 96vw;
+    height: auto;
+    margin: 2% auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* display: flex;
+    justify-content: space-between; */
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 12%;
+}
+.click{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3%;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    height: 260px;
+   
+}
+.click{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Baloo 2', sans-serif;
+  
+
+    
+   
+
+
+}
+.buy{
+
+    background: teal;
+    width: 100px;
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Baloo 2', sans-serif;
+    height: 38px;
+    border-radius: 6px;
+    border: none;
+
+   
+    
+
+
+}
